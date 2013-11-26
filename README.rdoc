@@ -1,0 +1,5 @@
+flow is request, server, config/routes, controller, action, template/view
+
+controller = thin, interacts with the db/models, mailers, etc
+
+tdd = setup cost, factory girl, rspec, rspec rails, shoulda matchers, guard

@@ -1,0 +1,10 @@
+= @todo.errors.full_messages if @todo.errors.present?
+
+= form_for @todo do |f|
+  = f.label :title
+  = f.text_field :title
+  = f.label :body
+  = f.text_area :body
+  = f.label :complete
+  = f.check_box :complete
+  = f.submit :submit
